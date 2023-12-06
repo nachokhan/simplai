@@ -36,7 +36,7 @@ print(response)
 
 ## Documentation
 
-To access the full documentation and learn more about SimoPAI, please visit the [SimoPAI documentation](https://github.com/your_username/simopai).
+To access the full documentation and learn more about SimoPAI, please visit the [SimoPAI documentation](https://github.com/nachokhan/simopai).
 
 ## Contributing
 
