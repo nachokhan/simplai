@@ -1,4 +1,3 @@
-"""
 # SimoPAI
 
 SimoPAI is a Python library that simplifies the usage of the OpenAI GPT-3 model for everyday text generation tasks. This library is designed to provide a more user-friendly and structured interface, allowing developers to harness the power of GPT-3 without the complexities of managing raw JSON data.
@@ -47,4 +46,3 @@ Contributions to SimoPAI are welcome! If you have ideas for improvements or find
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-"""
