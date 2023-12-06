@@ -13,26 +13,26 @@ SimoPAI is a Python library that simplifies the usage of the OpenAI GPT-3 model 
 ## Getting Started
 
 1. Install SimoPAI via pip:
-
 ```bash
 pip install simopai
+```
 
 2. Initialize a SimoPAI object with your OpenAI API key:
-
 ```python
 from simopai import SimoPAI
 
 # Replace 'YOUR_OPENAI_API_KEY' with your actual API key
 simo = SimoPAI(api_key="YOUR_OPENAI_API_KEY")
+```
 
 3. Generate text using the library's simplified interface:
-
 ```python
 # Generate text based on a prompt
 response = simo.generate_text(prompt="Translate the following English text to French: 'Hello, world!'")
 
 # Print the generated text
 print(response)
+```
 
 ## Documentation
 
