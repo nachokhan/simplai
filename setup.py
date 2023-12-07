@@ -8,6 +8,6 @@ setup(
     author_email='ignacio.rigoni@gmail.com',
     packages=['simoPAI'],
     install_requires=[
-        # Dependencias
+        "openai",
     ],
 )
