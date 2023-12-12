@@ -1,6 +1,7 @@
 # Archivos y directorios generados por Python
 __pycache__/
 *.pyc
+.pytest_cache
 
 # Entorno virtual
 venv/
