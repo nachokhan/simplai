@@ -1,6 +1,6 @@
-# SimoPAI
+# simplai
 
-SimoPAI is a Python library that simplifies the usage of the OpenAI models for everyday text generation tasks. This library is designed to provide a more user-friendly and structured interface, allowing developers to harness the power of openAI technologies without the complexities of managing raw JSON data.
+simplai is a Python library that simplifies the usage of the OpenAI models for everyday text generation tasks. This library is designed to provide a more user-friendly and structured interface, allowing developers to harness the power of openAI technologies without the complexities of managing raw JSON data.
 
 ## Features
 
@@ -11,17 +11,17 @@ SimoPAI is a Python library that simplifies the usage of the OpenAI models for e
 
 ## Getting Started
 
-1. Install SimoPAI via pip:
+1. Install simplai via pip:
 ```bash
-pip install simopai
+pip install simplai
 ```
 
-2. Initialize a SimoPAI object with your OpenAI API key:
+2. Initialize a simplai object with your OpenAI API key:
 ```python
-from simopai import SimoPAI
+from simplai import simplai
 
 # Replace 'YOUR_OPENAI_API_KEY' with your actual API key
-simo = SimoPAI(api_key="YOUR_OPENAI_API_KEY")
+simo = simplai(api_key="YOUR_OPENAI_API_KEY")
 ```
 
 3. Generate text using the library's simplified interface:
@@ -35,11 +35,11 @@ print(response)
 
 ## Documentation
 
-To access the full documentation and learn more about SimoPAI, please visit the [SimoPAI documentation](https://github.com/nachokhan/simopai).
+To access the full documentation and learn more about simplai, please visit the [simplai documentation](https://github.com/nachokhan/simplai).
 
 ## Contributing
 
-Contributions to SimoPAI are welcome! If you have ideas for improvements or find any issues, please create a GitHub issue or submit a pull request.
+Contributions to simplai are welcome! If you have ideas for improvements or find any issues, please create a GitHub issue or submit a pull request.
 
 ## License
 

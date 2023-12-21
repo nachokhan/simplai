@@ -1,6 +1,6 @@
-# Simopai Library
+# simplai Library
 
-Simopai is a Python library for easy and structured integration with OpenAI's APIs, including GPT-3, GPT-4, Codex, and DALL-E.
+simplai is a Python library for easy and structured integration with OpenAI's APIs, including GPT-3, GPT-4, Codex, and DALL-E.
 
 ## Available Models
 
