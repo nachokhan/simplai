@@ -3,7 +3,7 @@ from openai import OpenAI
 
 class Client():
     def __init__(self, openai_key: str) -> None:
-        self.opai_client = None
+        self.openai_client = None
 
         self._create_open_ai_client(openai_key)
 
@@ -14,8 +14,8 @@ class Client():
         if not isinstance(key, str):
             raise Exception("OpenAI key must be a sting")
 
-        self.opai_client = OpenAI(api_key=key)
-        print(self.opai_client)
+        self.openai_client = OpenAI(api_key=key)
+        print(self.openai_client)
 
 
 if __name__ == "__main__":
