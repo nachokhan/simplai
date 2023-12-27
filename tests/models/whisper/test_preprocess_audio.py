@@ -5,8 +5,8 @@ import os
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
 
-from simopai.models.whisper.preprocess_lib import preprocess_audio
-from simopai.models.whisper.enums import AudioProcessing, LongFileStrategy
+from simplai.models.whisper.preprocess_lib import preprocess_audio
+from simplai.models.whisper.enums import AudioProcessing, LongFileStrategy
 
 
 TEST_AUDIO_FILE = "tests/models/whisper/audio/TEST.m4a"

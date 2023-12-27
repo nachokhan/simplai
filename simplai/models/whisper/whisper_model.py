@@ -1,7 +1,7 @@
 import whisper
-from simopai.models.whisper.enums import ModelSize, TaskType, Temperature, BeamSize, AudioProcessing
-from simopai.models.whisper.enums import Precision, ComputeType, Verbosity, LongFileStrategy
-from simopai.models.whisper.preprocess_lib import preprocess_audio
+from simplai.models.whisper.enums import ModelSize, TaskType, Temperature, BeamSize, AudioProcessing
+from simplai.models.whisper.enums import Precision, ComputeType, Verbosity, LongFileStrategy
+from simplai.models.whisper.preprocess_lib import preprocess_audio
 
 
 class WhisperModel:

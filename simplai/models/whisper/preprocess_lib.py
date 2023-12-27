@@ -2,8 +2,8 @@ import os
 import librosa
 import noisereduce as nr
 import soundfile as sf
-from simopai.models.whisper.enums import AudioProcessing
-from simopai.models.whisper.enums import LongFileStrategy
+from simplai.models.whisper.enums import AudioProcessing
+from simplai.models.whisper.enums import LongFileStrategy
 
 
 def preprocess_audio(audio_path, processing_type=AudioProcessing.NONE, long_file_strategy=LongFileStrategy.DEFAULT):

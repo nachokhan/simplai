@@ -1,6 +1,6 @@
 import pytest
-from simopai.models.whisper.whisper_model import WhisperModel
-from simopai.models.whisper.enums import ModelSize, TaskType, AudioProcessing, LongFileStrategy
+from simplai.models.whisper.whisper_model import WhisperModel
+from simplai.models.whisper.enums import ModelSize, TaskType, AudioProcessing, LongFileStrategy
 
 
 # Define the path to the test audio file

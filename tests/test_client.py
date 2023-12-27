@@ -5,7 +5,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
 
 import pytest
-from simopai.client import Client
+from simplai.client import Client
 
 
 valid_api_key = 'your_valid_api_key'
