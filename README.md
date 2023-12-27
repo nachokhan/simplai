@@ -1,3 +1,6 @@
+NOTE: Still in eraly stages. Not productive. 
+Feel free to take part.
+
 # simplai
 
 simplai is a Python library that simplifies the usage of the OpenAI models for everyday text generation tasks. This library is designed to provide a more user-friendly and structured interface, allowing developers to harness the power of openAI technologies without the complexities of managing raw JSON data.
