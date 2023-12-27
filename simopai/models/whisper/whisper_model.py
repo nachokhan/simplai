@@ -5,11 +5,18 @@ from simopai.models.whisper.preprocess_lib import preprocess_audio
 
 
 class WhisperModel:
-    def __init__(self, model_size=ModelSize.BASE, task_type=TaskType.TRANSCRIBE,
-                 temperature=Temperature.LOW, beam_size=BeamSize.SMALL, precision=Precision.FP32,
-                 verbosity=Verbosity.QUIET, audio_processing=AudioProcessing.NONE,
-                 compute_type=ComputeType.AUTO, language="en", best_of=None,
-                 without_timestamps=False, long_file_strategy=LongFileStrategy.DEFAULT):
+    def __init__(self, model_size=ModelSize.BASE,
+                 task_type=TaskType.TRANSCRIBE,
+                 temperature=Temperature.LOW,
+                 beam_size=BeamSize.SMALL,
+                 precision=Precision.FP32,
+                 verbosity=Verbosity.QUIET,
+                 audio_processing=AudioProcessing.NONE,
+                 compute_type=ComputeType.AUTO,
+                 language="en", best_of=None,
+                 without_timestamps=False,
+                 long_file_strategy=LongFileStrategy.DEFAULT):
+
         # Assign configurations from enumerations and parameters
         self.model_size = model_size
         self.task_type = task_type
